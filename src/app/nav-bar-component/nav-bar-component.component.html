@@ -1,1 +1,44 @@
-<h1>Nav</h1>
+<nav class="fondo border-gray-200">
+
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8">
+
+      <a href="" routerLink="" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="assets/images/logoNav.png" class="h-8" alt="Logo" />
+          <span class="self-center text-3xl font-semibold whitespace-nowrap text-white">Empresa</span>
+      </a>
+
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-100 rounded-lg md:hidden  focus:outline-none focus:ring-2 focus:ring-gray-100 dark:text-gray-100 dark:hover:bg-gray-700 dark:focus:ring-gray-100" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 fondo md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 text-white ">
+
+          <li>
+            <a href="#" routerLink="" class=" block py-2 px-3 hover:bg-gray-100 hover:text-black rounded md:bg-transparent" aria-current="page">Inicio</a>
+          </li>
+    
+          <li>
+            <a href="#" routerLink="/Servicios" class=" block py-2 px-3 hover:bg-gray-100 hover:text-black rounded md:bg-transparent">Servicios</a>
+          </li>
+
+          <li>
+            <a href="#" routerLink="/Contact" class=" block py-2 px-3 hover:bg-gray-100 hover:text-black rounded md:bg-transparent">Contacto</a>
+          </li>
+
+          <li>
+            <a href="#" routerLink="/Blog" class=" block py-2 px-3 hover:bg-gray-100 hover:text-black rounded md:bg-transparent">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" routerLink="/Login" class=" block py-2 px-3 hover:bg-gray-100 hover:text-black rounded md:bg-transparent">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
